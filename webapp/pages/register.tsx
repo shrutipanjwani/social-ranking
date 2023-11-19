@@ -8,6 +8,7 @@ import { onAuthStateChanged, signInWithEmailAndPassword } from "firebase/auth";
 import { FirebaseError } from "firebase/app";
 import { RectangleStackIcon } from "@heroicons/react/24/outline";
 import Notification from "@/components/Notification";
+import Link from "next/link";
 
 const RegisterPage = () => {
   const [showRegisterNotification, setShowRegisterNotification] =
@@ -146,12 +147,12 @@ const RegisterPage = () => {
 
           <p className="mt-10 text-center text-sm text-gray-400 font-poppins">
             Already have an account?{" "}
-            <a
+            <Link
               href="/login"
               className="font-poppins leading-6 underline text-gray-200 hover:text-gray-200"
             >
               Login here
-            </a>
+            </Link>
           </p>
         </div>
       </div>

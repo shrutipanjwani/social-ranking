@@ -6,6 +6,7 @@ import { auth } from "../utils/firebase";
 import { FirebaseError } from "firebase/app";
 import { RectangleStackIcon } from "@heroicons/react/24/outline";
 import Notification from "@/components/Notification";
+import Link from "next/link";
 
 const LoginPage = () => {
   const [showLoginNotification, setShowLoginNotification] = useState(false);
@@ -140,12 +141,12 @@ const LoginPage = () => {
 
           <p className="mt-10 text-center text-sm text-gray-400 font-poppins">
             Don&apos;t have an account?{" "}
-            <a
+            <Link
               href="/register"
               className="font-poppins leading-6 underline text-gray-200 hover:text-gray-200"
             >
               Register here
-            </a>
+            </Link>
           </p>
         </div>
       </div>
