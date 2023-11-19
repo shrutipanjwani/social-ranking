@@ -11,7 +11,7 @@ interface ButtonProps {
 }
 
 const buttonStyles =
-  "relative inline-flex items-center text-white font-poppins bg-gradient-to-r from-primary to-secondary rounded py-2 px-6 shadow-sm border border-primary hover:bg-white/20";
+  "relative inline-flex items-center text-white font-poppins bg-gradient-to-r from-primary to-secondary rounded py-2 px-6 shadow-sm border border-primary hover:border-secondary hover:transition hover:duration-700 hover:ease-in-out";
 
 const Button = ({
   children,
