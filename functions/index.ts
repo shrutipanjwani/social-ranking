@@ -18,8 +18,6 @@ export const registerUser = functions.https.onCall(
         password,
       });
 
-      console.log(userRecord);
-
       return {
         uid: userRecord.uid,
         email: userRecord.email,

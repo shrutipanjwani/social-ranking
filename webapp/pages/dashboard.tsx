@@ -155,12 +155,10 @@ const DashboardPage = () => {
       const response = await axios.get<RedditThread[]>(`/api/searchReddit`, {
         params: { content: tweet.content },
       });
-      console.log(response);
       const threadsWithOrigin = response.data.map((thread) => ({
         ...thread,
         originTweetId: tweet.id, // Set the ID of the tweet that was used to find these threads
       }));
-      console.log(threadsWithOrigin);
       setThreads(threadsWithOrigin);
     } catch (error) {
       console.error("Error fetching threads:", error);

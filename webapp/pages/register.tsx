@@ -44,7 +44,6 @@ const RegisterPage = () => {
     try {
       const result = await registerUser({ displayName: name, email, password });
       const data = result.data;
-      console.log("Result:", data);
       if (data) {
         await signInWithEmailAndPassword(auth, email, password);
         router.push("/dashboard");
