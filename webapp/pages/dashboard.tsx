@@ -51,13 +51,6 @@ const navigation = [
   { name: "Dashboard", href: "/dashboard", icon: HomeIcon, current: true },
 ];
 
-const threadsTabs = [
-  { name: "All", href: "#", current: true },
-  { name: "Reddit", href: "#", current: false },
-  { name: "Quora", href: "#", current: false },
-  { name: "Product Hunt Discussions", href: "#", current: false },
-];
-
 function classNames(...classes: any[]) {
   return classes.filter(Boolean).join(" ");
 }
@@ -686,7 +679,7 @@ const DashboardPage = () => {
                       value={draftReply}
                       name="comment"
                       id="comment"
-                      className="block w-full rounded-md border-0 p-2 text-gray-900 shadow-sm ring-1 ring-inset ring-primary placeholder:text-gray-400 focus:ring focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6"
+                      className="block w-full font-poppins rounded-md border-0 p-2 text-gray-900 shadow-sm ring-1 ring-inset ring-primary placeholder:text-gray-400 focus:ring focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6"
                       placeholder="Draft a reply to the thread"
                       onChange={(e) => setDraftReply(e.target.value)}
                     />

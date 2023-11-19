@@ -6,7 +6,7 @@ import React, { Fragment } from "react";
 type NotificationProps = {
   show: boolean;
   message: string;
-  description: string;
+  description?: string;
   onClose: () => void;
   type?: "success" | "error";
 };
