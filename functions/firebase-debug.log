@@ -1,0 +1,14 @@
+[debug] [2023-11-19T06:48:04.527Z] ----------------------------------------------------------------------
+[debug] [2023-11-19T06:48:04.528Z] Command:       /usr/local/bin/firebase /Users/lucky/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase deploy
+[debug] [2023-11-19T06:48:04.529Z] CLI Version:   12.9.0
+[debug] [2023-11-19T06:48:04.529Z] Platform:      darwin
+[debug] [2023-11-19T06:48:04.529Z] Node Version:  v16.16.0
+[debug] [2023-11-19T06:48:04.535Z] Time:          Sun Nov 19 2023 12:18:04 GMT+0530 (India Standard Time)
+[debug] [2023-11-19T06:48:04.535Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-11-19T06:48:04.639Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-11-19T06:48:04.641Z] > authorizing via signed-in user (shrutipanjwani13@gmail.com)
+[debug] [2023-11-19T06:48:04.641Z] [iam] checking project social-content-repurposing for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2023-11-19T06:48:04.645Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/social-content-repurposing:testIamPermissions [none]
+[debug] [2023-11-19T06:48:04.646Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/social-content-repurposing:testIamPermissions x-goog-quota-user=projects/social-content-repurposing
+[debug] [2023-11-19T06:48:04.647Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/social-content-repurposing:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]}
