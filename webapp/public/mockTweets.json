@@ -2,21 +2,41 @@
   {
     "id": "1",
     "content": "Now featuring the awesome creations of Typeframes users ✨ https://typeframes.com/templates Send me your TF videos and I will include them here (with a do-follow link) What I learned is that an awesome way to see if an idea resonates is to create a video out of it. That's why I am building Typeframes. It lets you create a video, from text, in literally in 5 minutes. Go try it: http://typeframes.com",
-    "username": "",
-    "authorImg": "",
-    "authorName": "",
-    "likes": "",
-    "retweets": "",
+    "username": "@tibo_maker",
+    "authorImg": "https://pbs.twimg.com/profile_images/1631931185180934144/59z_ZFKm_400x400.jpg",
+    "authorName": "Tibo",
+    "likes": "68",
+    "retweets": "8",
     "originalTweetLink": "https://x.com/tibo_maker/status/1714223335947550926?s=20"
   },
   {
     "id": "2",
-    "content": "",
-    "username": "",
-    "authorImg": "",
-    "authorName": "",
-    "likes": "",
-    "retweets": "",
-    "originalTweetLink": ""
+    "content": "Sam Altman got fired from OpenAI.\n\nHere is what we know and what's unverified.\n\nWe know:\n\n- On Thursday, Sam gets a text from Ilya to talk on Friday noon. He hops on the GMeet and finds the whole board there (except Greg). They fire him and Mira (CTO) steps in as interim CEO.\n\n- Next they call Greg for a quick GMeet, and tell him he's stepping down as chairman and president of the board (but will stay at the company)\n\n- Greg quits OpenAI. Then three senior researchers also quit: Jakub Pachocki (GPT 4 lead), Aleksander Madry (Head of AI risk), Szymon Sidor (Open-source researcher)\n\n- Sam says \"I love you all\" on X and teases he's going to start talking about what happened (still waiting for more updates)\n\nTheories and unverified info:\n\n- Microsoft (which owns 49% of OpenAI LLC), but was only made aware of the decision few mins before the public announcement. Reminder, Microsoft doesn't have a board seat)\n\n- Strategic disagreement between Sam pushing for growth (with ChatGPT) where the board wants total dedication to AGI research\n\n- There's a major security flaw with GPT-4 Turbo and custom GPTs because they rushed release (a data leak happened in March too) and OpenAI wants to blame someone\n\n- A breakthrough was made in the last few weeks (related to AGI?) and may have something with this. Sam Altman said: \"4 times now in the history of OpenAI - the most recent time was just in the last couple of weeks - I’ve gotten to be in the room when we push the veil of ignorance back and the frontier of discovery forward”\n\nSome great questions:\n\n- Did Sam do anything wrong? Greg quitting means he most likely didn't.\n\n- How Microsoft not be part of this? (assuming this is true)\n\n- Is it not crazy that 3 out of the 6 board members have 0 skin in the game?\n\nWatching closely",
+    "username": "@tibo_maker",
+    "authorImg": "https://pbs.twimg.com/profile_images/1631931185180934144/59z_ZFKm_400x400.jpg",
+    "authorName": "Tibo",
+    "likes": "193",
+    "retweets": "31",
+    "originalTweetLink": "https://x.com/tibo_maker/status/1725852873932566826?s=20"
+  },
+  {
+    "id": "3",
+    "content": "If I had an agency, I would reach out to big creators and suggest to \"white label\" my agency. \n\nTake someone like \"Justin Welsh\", and go for: \n✅ Justin Welsh personal branding agency\n✅ Justin Welsh marketing agency\n✅ Justin Welsh SEO agency",
+    "username": "@tibo_maker",
+    "authorImg": "https://pbs.twimg.com/profile_images/1631931185180934144/59z_ZFKm_400x400.jpg",
+    "authorName": "Tibo",
+    "likes": "67",
+    "retweets": "0",
+    "originalTweetLink": "https://x.com/tibo_maker/status/1725102987578597860?s=20"
+  },
+  {
+    "id": "4",
+    "content": "Stop thinking that ideas are worth protecting. It's the execution where magic happens. People who think ideas are gold, tend to overthink, overcomplicate and take too much time.Share your idea, take feedback, move fast.",
+    "username": "@tibo_maker",
+    "authorImg": "https://pbs.twimg.com/profile_images/1631931185180934144/59z_ZFKm_400x400.jpg",
+    "authorName": "Tibo",
+    "likes": "138",
+    "retweets": "13",
+    "originalTweetLink": "https://x.com/tibo_maker/status/1725512487896846602?s=20"
   }
 ]
